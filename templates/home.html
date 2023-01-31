@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <form action="/predict" method="POST">
+        Pregnancies:<input type='test' name="Pregnancies"><br>
+        Glucose:<input type='test' name="Glucose"><br>
+        BloodPressure:<input type='test' name="BloodPressure"><br>
+        SkinThickness:<input type='test' name="SkinThickness"><br>
+        Insulin:<input type='test' name="Insulin"><br>
+        BMI:<input type='test' name="BMI"><br>
+        DiabetesPedigreeFunction:<input type='test' name="DiabetesPedigreeFunction"><br>
+        Age:<input type='test' name="Age"><br>
+        Outcome: {{result}} <br>
+        <input type="submit" value="Predict">
+        
+        <script src="" async defer></script>
+        </form>
+    </body>
+</html>
